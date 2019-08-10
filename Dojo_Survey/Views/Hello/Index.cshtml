@@ -1,0 +1,53 @@
+@model Dojo_Survey.Models.Survey
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Index</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+        <style>
+            .survey{
+                width: 600px;
+                height: 300px;
+                border: 2px solid black;
+                background-color: blanchedalmond;
+           
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Dojo survey </h1>
+            <div class="survey">
+               
+                <form action="method" method="post">
+                    Your Name:<input type="text" name="Name"/>
+                    <br>
+                    
+                    Your Location:
+                    <select name="Location">
+                        <option value="Denver">Denver</option>
+                        <option value="Seattle">Seattle</option>
+                        <option value="San Jose">San Jose</option>
+                            
+                    </select>
+
+                    <br>
+                    Favourite Language:
+                    <select name="Language">
+                            <option value="Python">Python</option>
+                            <option value="C#">C#</option>
+                            <option value="Java">Java</option>
+                    </select>
+                    <br>
+                    Comment(Optional):<input type="text" name="Comment"/>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+
+
+    </body>
+</html>

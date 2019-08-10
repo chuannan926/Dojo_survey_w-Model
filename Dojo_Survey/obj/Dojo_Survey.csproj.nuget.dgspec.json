@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cnz/Desktop/C#/ASP_MVCI/Dojo_Survey/Dojo_Survey.csproj": {}
+  },
+  "projects": {
+    "/Users/cnz/Desktop/C#/ASP_MVCI/Dojo_Survey/Dojo_Survey.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cnz/Desktop/C#/ASP_MVCI/Dojo_Survey/Dojo_Survey.csproj",
+        "projectName": "Dojo_Survey",
+        "projectPath": "/Users/cnz/Desktop/C#/ASP_MVCI/Dojo_Survey/Dojo_Survey.csproj",
+        "packagesPath": "/Users/cnz/.nuget/packages/",
+        "outputPath": "/Users/cnz/Desktop/C#/ASP_MVCI/Dojo_Survey/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/cnz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

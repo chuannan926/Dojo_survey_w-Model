@@ -1,0 +1,27 @@
+@model Dojo_Survey.Models.Survey
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Index</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body> 
+        <h1>Submitted Info</h1>
+        <br>
+        Name: @Model.Name
+        <br>
+        Dojo Location: @Model.Location
+        <br>
+        Favourite Language: @Model.Language
+        <br>
+        Comment: @Model.Comment
+        <br>
+
+
+
+
+        <a href="/">Go Back</a>
+    </body>
+</html>
